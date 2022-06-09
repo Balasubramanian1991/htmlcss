@@ -5,6 +5,6 @@
   <artifactId>my-app</artifactId>
   <version>1</version>
   <configuration>
-    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+    <webXml>src/main/webapp/demo2.html</webXml>
   </configuration>
 </project>
