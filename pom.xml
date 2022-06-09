@@ -4,4 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <version>1</version>
+  <configuration>
+    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+  </configuration>
 </project>
