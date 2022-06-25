@@ -1,2 +1,2 @@
 [dev]
-54.221.121.27 ansible_user=ec2_user
+54.221.121.27 ansible_user=ec2-user
