@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .left {
+            background-color: #2196F3;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        .main {
+            background-color: #f1f1f1;
+            padding: 20px;
+            float: left;
+            width: 60%;
+        }
+        .right {
+            background-color: #04aa6d;
+            padding: 20px;
+            float: left;
+            width: 20%;
+        }
+        @media screen and (max-width: 800px) {
+            .left, .main, .right {
+                width: 100%;
+            }
+        }
+    </style>
+    <body>
+        <h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div class="left">
+  <p>Left Menu</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+        <!-- <h2>Show different images depending on browser width</h2>
+        <p>Resize the browser width and the image will change at 600px and 1500px.</p>
+        <picture>
+            <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+            <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+            <source srcset="flowers.jfif">
+            <img src="img_flowers.jpg" alt="flowers" style="width:auto;">
+        </picture> -->
+
+    </body>
+</html>

@@ -1,0 +1,98 @@
+<html>
+    <body>
+         <!--JS Intro1  -->         
+        <p id="demo"></p>       
+        <button type="button" onclick='document.getElementById("demo").innerHTML="Hello JavaScript!"'>Click Me!</button>
+            
+        <!--JS Intro2  -->
+        <button onclick="document.getElementById('myImage').src='bulbon.png'">Turn on the light</button>
+        <img id="myImage" src="bulb.png" style="width:100px">
+        <button onclick="document.getElementById('myImage').src='bulb.png'">Turn off the light</button>
+
+        <!-- JS Variables -->
+        <p id="demo1"></p>
+        <script>
+            var x = 5;
+            var y = 6;
+            var z = x + y;
+            document.getElementById("demo1").innerHTML = "The value of z is: " + z;
+        </script>
+
+        <!-- JS Operators -->
+        <script>
+            var x = 10;
+            x += 5;
+            document.getElementById("demo").innerHTML = x;
+            </script>
+           
+        <!--JS Arithmetic  -->        
+<script>
+let a = 3;
+let x = (100 + 50) * a;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+<!-- Variables defined with let cannot be Redeclared.
+Variables defined with let must be Declared before use.
+Variables defined with let have Block Scope.
+Variables defined with const cannot be Redeclared.
+Variables defined with const cannot be Reassigned.
+Variables defined with const have Block Scope. -->
+
+<!-- JavaScript variables can hold different data types: numbers, strings, objects and more:
+JavaScript arrays are written with square brackets.
+JavaScript objects are written with curly braces {}.
+Object properties are written as name:value pairs, separated by commas. -->
+
+<script>
+    function myFunction(p1, p2){
+        return p1*p2
+    }
+    document.getElementById('demo').innerHTML=myFunction(4,3)
+</script>
+<script>
+    var x=myFunction(10,20);
+    document.getElementById("demo").innerHTML=x;
+    function myFunction(a,b) {
+    return a*b;
+}
+
+<!-- JS Arithmetic  --> 
+
+</script>
+<button onclick="document.getElementById('demo100').innerHTML=Date()">The time is?</button>
+<p id="demo100"></p>
+
+<!-- JS Events -->
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+<!-- JS Strings -->
+<script>
+    let text="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("demo").innerHTML=text.length;   
+    </script>
+
+    <!-- JS Arrays -->
+    <button onclick="myFunction()">Try it</button>
+    <script>
+        const fruits = ["Banana", "Orange", "Apple"];
+        document.getElementById("demo").innerHTML=fruits;
+
+        function myFunction() {
+            fruits.push("Lemon");
+            document.getElementById("demo").innerHTML=fruits;
+        }        
+    </script>
+    <!-- In JavaScript, arrays use numbered indexes.  
+
+In JavaScript, objects use named indexes. -->
+
+
+
+
+
+
+
+
+    </body>
+</html>
